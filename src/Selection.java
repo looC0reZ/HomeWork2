@@ -2,7 +2,9 @@ import java.util.Arrays;
 
 class Selection {
     public static void main(String[] arg) {
-        int mas[] = {6, 12, 56, 8, 32, 123, 4, 45, 29, 96, 46, 15, 23, 42, 108, 1};
+        int mas[] = {52, 5, 66, 59, -54, -7, -93, 97, -9, -19, -94, 21, 17, 78, -35, -49, 91, 15, 94, 76, 56, 55, -9,
+                -22, -73, 47, -81, 53, 94, -75, -36, -47, 51, 27, 5, -59, 42, 67, -47, 14, -19, -43, -8, 4, 72, 36,
+                -39, 1, -32, 31};
         for (int i =0; i < mas.length -1; i++) {
             int max = Integer.MIN_VALUE;
             int pos = 0;
